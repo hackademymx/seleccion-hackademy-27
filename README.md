@@ -52,3 +52,6 @@ deberías de ser acreedor a la beca de tu selección.
 
 4. Entrevista
    - Al finalizar el paso 1, 2 y 3 agendas una entrevista con alguien del equipo de Hackademy para hablar un poco sobre tí, tu experiencia y el resultado de tus ejercicios.
+
+
+# Si tiennes dudas puedes enviar un correo a hola@hackademy.mx
