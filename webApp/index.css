@@ -1,0 +1,11 @@
+.containerStyle {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.formStyle {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
