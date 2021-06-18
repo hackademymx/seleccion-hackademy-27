@@ -24,4 +24,4 @@ https://codepen.io/carloseduardobotero/pen/bGqZpgG
 
 - Creé una api en mockapi.io
 - Creé una web con un formulario para guardar los datos de la web a la api.
-  https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+  https://carloseduardobotero.github.io/comparte-tu-mascota/
