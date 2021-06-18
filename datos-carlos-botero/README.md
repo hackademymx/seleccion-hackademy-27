@@ -28,4 +28,4 @@ https://codepen.io/carloseduardobotero/pen/bGqZpgG
 
 **link al repositorio**
 
-https://github.com/CarlosEduardoBotero/seleccion-hackademy-27
+https://github.com/CarlosEduardoBotero/comparte-tu-mascota
