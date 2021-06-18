@@ -23,5 +23,9 @@ https://codepen.io/carloseduardobotero/pen/bGqZpgG
 **Proyecto Frontend**
 
 - Creé una api en mockapi.io
-- Creé una web con un formulario para guardar los datos de la web a la api.
-  https://carloseduardobotero.github.io/comparte-tu-mascota/
+- Creé una web que agrega dinamicamente una tarjeta con los datos de la mascota y foto, mediante el formulario. Luego que agrega debe hacer scroll down y aparecerá la tarjeta.
+- https://carloseduardobotero.github.io/comparte-tu-mascota/
+
+**link al repositorio**
+
+https://github.com/CarlosEduardoBotero/seleccion-hackademy-27
