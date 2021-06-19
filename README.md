@@ -13,6 +13,9 @@ Por qué?: Porque quiero crecer profesionalmente y por lo que estuve viendo, ley
 Beca: Deseo aplicar a la beca 100%
 
 Links a ejercicios:
+
  https://replit.com/@FedeGA93/Most-pople-alive
+ 
  https://replit.com/@FedeGA93/Print-thousand-times
+ 
  https://replit.com/@FedeGA93/Team-form-Championship
