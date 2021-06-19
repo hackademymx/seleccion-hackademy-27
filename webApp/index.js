@@ -9,6 +9,7 @@ let state = 0;
 
 showPets.addEventListener("click", (e) => {
   e.preventDefault();
+  listDiv.innerHTML = "";
   fetchDataFromApi();
   formDiv.classList.add("hide");
   state = 0;
@@ -21,6 +22,7 @@ addPet.addEventListener("click", (e) => {
   if (state === 0) {
     formDiv.classList.remove("hide");
     listDiv.classList.add("hide");
+    listDiv.innerHTML = "";
     state = 1;
   } else if (state === 1) {
     formDiv.classList.add("hide");
@@ -75,14 +77,14 @@ const postData = async () => {
 };
 
 const card = async ({ id, petRace, petName, petAge, petPhoto }) => {
-  const cardTest = await document.createElement("div");
-  cardTest.id = id;
-  cardTest.classList.add("cardColor");
+  const cardDiv = await document.createElement("div");
+  cardDiv.id = id;
+  cardDiv.classList.add("cardColor");
   const content = `<p> Pet Name: ${petName}</p> 
                    <p>Pet Age: ${petAge}</p>
                    <p>Pet Race: ${petRace}</p>
                    <img src="${petPhoto}" alt="${petName}" width="200" heigh="200" > `;
-  listDiv.appendChild(cardTest);
+  listDiv.appendChild(cardDiv);
   const newDiv = await document.getElementById(id);
   newDiv.innerHTML = newDiv.innerHTML + content;
 };
