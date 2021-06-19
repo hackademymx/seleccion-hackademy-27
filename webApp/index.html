@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MockApi Store</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="containerStyle">
+      <div>
+        <div class="buttonsDiv">
+          <button id="showPet">Show Pets</button>
+          <button id="addPet">Add new Pet</button>
+        </div>
+        <div class="divContainList">
+          <div id="formDiv" class="hide">
+            <form class="formStyle" id="formData">
+              <input
+                type="text"
+                id="petName"
+                name="petName"
+                placeholder="Pet Name"
+              />
+              <input
+                type="number"
+                id="petAge"
+                name="petAge"
+                placeholder="Pet Age"
+              />
+              <input
+                type="text"
+                id="petRace"
+                name="petRace"
+                placeholder="Pet Race"
+              />
+              <input
+                type="text"
+                id="petPhoto"
+                name="petPhoto"
+                placeholder="Pet Image URL"
+              />
+              <button type="button" id="submitPet">Submit Pet!</button>
+            </form>
+          </div>
+          <div id="listDiv" class="card hide"></div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

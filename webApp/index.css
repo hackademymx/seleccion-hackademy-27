@@ -1,0 +1,45 @@
+.containerStyle {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+  justify-content: center;
+}
+.divContainList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.cardColor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
+  border-style: solid;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10;
+  border-radius: 10px;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+.formStyle {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
