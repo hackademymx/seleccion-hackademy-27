@@ -3,6 +3,19 @@
   flex-flow: column;
   align-items: center;
 }
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10vw;
+}
+.cardColor {
+  background-color: aqua;
+}
+
+.hide {
+  display: none;
+}
 .formStyle {
     display: flex;
     flex-flow: column wrap;
