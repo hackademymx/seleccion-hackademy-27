@@ -28,8 +28,8 @@ Me interesa entrar al mundo laboral lo antes posible, creo que la beca puede ser
 | Ejercicio | Enlace | Descripción |
 | --:| :----------: | :----- |
 | 1 | [link](https://codepen.io/moises-dominguez-thelooper/pen/RwVVOrL)| Imprimir mil veces un string sin usar un ciclo o una iteracion |
-| 1 | [link] | Calcular el año el que mas personas estuvieron vivas tomando un json  con fecha de nacimineto y defuncion |
-| 3 | [link] | Ordenar dos arreglos(uno con nombres de los equipos y otro con la cantidad de torneos ganados por equipo), de mayor a menor |
+| 2 | [link](https://codepen.io/moises-dominguez-thelooper/pen)| Calcular el año el que mas personas estuvieron vivas tomando un json  con fecha de nacimineto y defuncion |
+| 3 | [link](https://codepen.io/moises-dominguez-thelooper/pen/MWmmMrP)| Ordenar dos arreglos(uno con nombres de los equipos y otro con la cantidad de torneos ganados por equipo), de mayor a menor |
 | 4 | [link] | Backend: API con 2 endpoints (uno Para guradar datos de la mascota y otro para borrar datos de la mascota)|
 3. Ejercicios:
    - Imprimir mil veces un string sin usar un ciclo o una iteración
