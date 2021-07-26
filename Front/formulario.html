@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>formulario</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: "Comic Sans MS";
+		}
+		header{
+			background: lightcoral;
+			font-family: "Comic Sans MS";
+			color: white;
+			height: 70px;
+			font-size: 50px;
+			width: 100%;
+		}
+		body{
+			background-image: url(https://www.paraisodemascotas.co/wp-content/uploads/2019/06/Fondo-quienes-somos-1.jpg);
+			background-size: cover;
+			background-repeat: no repeat;
+		}
+		form{
+			height:relative;
+			width: 300px;
+			background-color: lightskyblue;
+			margin-top: 5%;
+			margin-left: 37%;
+		}
+		input{
+			margin: 5px;
+			border-style: hidden;
+			border-radius: 9px;
+			width: 250px;
+			height: 30px;
+			font-size: 15px;
+		}
+		#boton{
+			color: whitesmoke;
+			background-color: #7BFA65;
+			font-size: 20px;
+			width: 100px;
+			height: 50px;
+			border-style: hidden;
+		}
+		#atras{
+			height: 20px;
+			width: 20px;
+		}
+		a{
+			margin-left: 800px;
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+			text-align: right;
+		}
+		a:hover{
+			font-size: 25px;
+		}
+		#rimage{
+			width: 300px;
+			height: 250px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p>Formulario  <a href="principal.html"><img id="atras"src="https://www.netclipart.com/pp/m/424-4246721_file-simpleicons-interface-double-flechas-hacia-la-izquierda.png">Volver</a></p>
+	</header>
+	<div>
+		<form id="form">
+			<label for="name">Nombre:</label>
+			<input type="text" id="nombre" name="name"><br><br>
+			<label>Edad:</label>
+			<input type="number" id="edad" name="age"><br><br>
+			<label for="raza">Raza:</label>
+			<input type="text" id="Raza" name="raza"><br><br>
+			<label for="img">Imagen:</label>
+			<input type="text" id="imagen" name="img" placeholder="URL"><br><br>
+			<img id="rimage">
+			<center><button id="boton" type="submit" name="boton">Enviar</center>
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="upload.js"></script>
+</html>

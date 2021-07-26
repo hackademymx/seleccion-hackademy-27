@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                background-color: blueviolet;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <Body>
+        <h1>El resultado de los calculos es:</h1>
+        <p id="resultado"></p>
+        <p>Este es el año que más gente vivió segun nuestros registros de la base de datos</p>
+    </Body>
+    <script>
+        var datosv = 0
+        var datosm = 0
+        var promedio = 0
+        const frm = document.querySelector('#resultado')
+        async function fecha() {
+            let jsonBlocks;
+            try {
+                var response = await fetch('data.json');
+                jsonBlocks = await response.json();
+                jsonBlocks.data.forEach((value) => {
+                    datosv += parseFloat(value.birthYear)
+                });
+                jsonBlocks.data.forEach((value) => {
+                    datosm += parseFloat(value.deathYear)
+                });
+                datosv /= parseFloat(jsonBlocks.data.length)
+                datosm /= parseFloat(jsonBlocks.data.length)
+                promedio = datosm - datosv
+                promedio /= 2
+                promedio += datosv
+                frm.innerHTML = parseInt(promedio)
+                console.log(datosv)
+                console.log(datosm)
+                console.log(promedio)
+            } catch (e) {
+            // handle error
+            console.error(e)
+        }
+}
+            fecha()
+</script>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="module">
+		const api = "https://60f250bb6d44f30017788625.mockapi.io/idkwidv1/";
+		const xhr = new XMLHttpRequest();
+
+		function onRequestHandler(){
+			if(this.readyState === 4 && this.status === 200){
+				const DATA = JSON.parse(this.response);
+				const RESPUESTAAPI = document.querySelector("#lista");
+				const contenido = DATA.map((perros) => `<tr><td><li>Nombre: ${perros.name}<td/> <td>Edad:${perros.age}<td/> <td>Raza:${perros.raza}<td/> <td><img src="${perros.img}" alt=""></li><td/><tr> `);
+				RESPUESTAAPI.innerHTML = `<ul>${contenido}</ul>`
+			}
+		}	
+
+		xhr.addEventListener('load', onRequestHandler);
+		xhr.open("GET", api + 'perros');
+		xhr.send();
+	</script>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: "Comic Sans MS";
+		}
+		img{
+			margin-left: 10px;
+			width: 100px;
+			height: 80px;
+		}
+		a{
+			margin-left: 800px;
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+			text-align: right;
+		}
+		a:hover{
+			font-size: 25px;
+		}
+		#atras{
+			height: 20px;
+			width: 20px;
+		}
+		header{
+			background: skyblue;
+			font-family: "Comic Sans MS";
+			color: white;
+			height: 70px;
+			font-size: 50px;
+			position: fixed;
+			width: 100%;
+		}
+		#lista{
+			background: lightcyan;
+		}
+		#lista td{
+			padding: 5px;
+		}
+		li{
+			list-style-type: none;
+		}
+		#app{
+			padding-top: 70px;
+			padding-left: 375px;
+			background-image:url(https://i.pinimg.com/736x/c7/90/29/c79029b53b037717c0f8b8691b6171c5.jpg);
+			background-attachment: fixed;
+		}
+	</style>
+	<title>lista</title>
+</head>
+<body>
+	<header>
+		<p>Lista de mascotas <a href="principal.html"> <img id="atras"src="https://www.netclipart.com/pp/m/424-4246721_file-simpleicons-interface-double-flechas-hacia-la-izquierda.png">Volver</a></p>
+	</header>
+	<div id="app">
+		<table id="lista">
+		</table>
+	</div>
+</body>
+</html>

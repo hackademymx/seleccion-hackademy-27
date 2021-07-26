@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <meta charset="charset utf-8">
+    <style type="text/css">
+    ol{
+        background-color: aquamarine;
+        font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+        list-style-type: decimal;
+    }
+    </style>
+    <title>Ordenar equipos</title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        const $lugar = document.querySelector('imprimir');
+        var arrayequipo = ["PSG", "Chicago Bulls", "Tomateros", "Isotopos", "Rangers", "Isotopos"]
+        var arraycampeonatos = ["3", "5", "6", "4", "2", "9"]
+
+        function burbuja(arreglo){
+        //recorreremos todos los elementos hasta n-1
+        for(i=0;i<(arreglo.length-1);i++)
+        //recorreremos todos los elementos hasta n-i, tomar en cuenta los ultimos no tiene caso ya que ya estan acomodados.
+        for(j=0;j<(arreglo.length-i);j++){
+ 
+            //comparamos
+            if(arreglo[j]<arreglo[j+1]){
+             //guardamos el numero mayor en el auxiliar
+                 aux=arreglo[j];
+             //guardamos el numero menor en el lugar correspondiente
+                 arreglo[j]=arreglo[j+1];
+             //asignamos el auxiliar en el lugar correspondiente
+                 arreglo[j+1]=aux;
+ 
+         }
+ 
+        }
+ 
+        return arreglo
+    }
+    function burbuja2(arreglo, equipos){
+        //recorreremos todos los elementos hasta n-1
+        for(i=0;i<(arreglo.length-1);i++)
+        //recorreremos todos los elementos hasta n-i, tomar en cuenta los ultimos no tiene caso ya que ya estan acomodados.
+        for(j=0;j<(arreglo.length-i);j++){
+ 
+            //comparamos
+            if(arreglo[j]<arreglo[j+1]){
+             //guardamos el numero mayor en el auxiliar
+                 aux=arreglo[j];
+                 aux2=equipos[j];
+             //guardamos el numero menor en el lugar correspondiente
+                 arreglo[j]=arreglo[j+1];
+                 equipos[j]=equipos[j+1]
+             //asignamos el auxiliar en el lugar correspondiente
+                 arreglo[j+1]=aux;
+                 equipos[j+1]=aux2;
+         }
+ 
+        }
+ 
+        return equipos
+    }
+    document.write('<ol>')
+    arrayequipo = burbuja2(arraycampeonatos, arrayequipo);
+    arraycampeonatos = burbuja(arraycampeonatos);
+    for(i=0;i<(arrayequipo.length);i++)
+    document.write('<li>'+ arrayequipo[i]+" "+arraycampeonatos[i]+'</li>');
+    document.write('</ol>')
+    </script>
+</html>
