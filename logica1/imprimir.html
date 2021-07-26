@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style type="text/css">
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #form{
+            
+			height:relative;
+			width: 300px;
+			background-color: lightskyblue;
+			margin-top: 5%;
+			margin-left: 37%;
+		}
+        #boton{
+			color: whitesmoke;
+			background-color: #7BFA65;
+			font-size: 20px;
+			width: 100px;
+			height: 50px;
+			border-style: hidden;
+		}
+        #lista{
+            margin-left: 37%;
+            margin-top: 20px;
+            background-color: white;
+        }
+        li{
+            margin-top: 5px;
+            list-style-type: decimal;
+        }
+	</style>
+	<title>lista</title>
+</head>
+<body>
+	<form id="form">
+        <center>
+        <label for="name">Inserte la variable para repetir:</label>
+        <input type="text" id="nombre" name="name"><br><br>
+        <button id="boton" type="submit">Enviar</button>
+        </center>
+    </form>
+    <div>
+        <ul id= "lista">
+
+        </ul>
+    </div>
+</body>
+<script type="text/javascript">
+    const $cosa =  document.querySelector('nombre') ;
+    const $boton = document.querySelector('#form');
+    const $lista = document.getElementById('lista');
+    function imprimir(texto){
+        texto = texto + texto + texto + texto + texto + texto + texto + texto + texto + texto;
+        texto = texto + texto + texto + texto + texto + texto + texto + texto + texto + texto;
+        texto = texto + texto + texto + texto + texto + texto + texto + texto + texto + texto;
+        return texto;
+    }
+    $boton.addEventListener('submit', (event) =>{
+        event.preventDefault()
+        var texto = "<li>"+ new FormData($boton).get('name') +"</li>"
+        texto = imprimir(texto); 
+        $lista.innerHTML = texto;
+    }) 
+</script>
+</html>
