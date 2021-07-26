@@ -14,10 +14,9 @@ Me interesa participar en la beca del 100%, Actualmente estoy estudiando ing. el
 - Tecnologias IOT
 - Analisis de sistemas 
 #### Areas de conocimiento
-- Estrucutras de datos
 - Programacion(funcional, estructurada, POO)
 - Patrones de diseño
-- Matematicas aplicada
+- Matematicas aplicadas
 - Microcontroladores
 - Conocimiento de estructuras de sistemsa de archivos(ms-dos, unix)
 - Me gusta aprender cosas nuevas fuera de mis horarios de estudio.
@@ -25,10 +24,16 @@ Me interesa participar en la beca del 100%, Actualmente estoy estudiando ing. el
 #### ¿Poque deberia ser acredor a una beca?
 Me interesa entrar al mundo laboral lo antes posible, creo que la beca puede ser una via adecuada para el proposito. Creo que soy un persona con una buena capacidad para aprender cosas nuevas, soy del lema de que es necesario equivocarse para crear.
 
-## Ejercicios
+## Ejercicios 1, 2, 3. 
 | Ejercicio | Enlace | Descripción |
 | --:| :---------- | :----- |
 | 1 | [link](https://codepen.io/moises-dominguez-thelooper/pen/RwVVOrL)| Imprimir mil veces un string sin usar un ciclo |
-| 2 | [link](https://codepen.io/moises-dominguez-thelooper/pen)| Calcular el año el que mas personas estuvieron vivas tomando un json  con fecha de nacimineto y defuncion |
+| 2 | [link](https://replit.com/@MoisesDominguez/econtrar-el-ano-con-mas-ocurrencias#index.js)| Calcular el año el que mas personas estuvieron vivas tomando un json  con fecha de nacimineto y defuncion |
 | 3 | [link](https://codepen.io/moises-dominguez-thelooper/pen/MWmmMrP)| Ordenar dos arreglos(uno con nombres de los equipos y otro con la cantidad de torneos ganados por equipo), de mayor a menor |
-| 4 | [repo](https://github.com/moisesEzequiel1/api-mascotas-nodejs),[api-link](https://prueba-de-area.herokuapp.com/api/pets/) | Backend: API con 2 endpoints (borrar mascotas, eliminar mascotas)|
+## Prueba de area
+- Backend: API con 2 endpoints (borrar mascotas, eliminar mascotas)
+
+| Descripción | link |
+|:--- | :--- |
+| Repo  | https://github.com/moisesEzequiel1/api-mascotas-nodejs |
+| Api-link | https://prueba-de-area.herokuapp.com/api/pets/ | 
