@@ -36,8 +36,7 @@ Soy estudiante autodidacta en busca de experiencia profesional
 
 6. La clásica [Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/) implementando algunas librerías.  
 
-7. Mi último proyecto usando PowerShell para limpiar el Start Menu de Windows de directorios creados por las aplicaciones:  
-[Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner)
+7. Mi último proyecto [Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner) que escrito en PowerShell para limpiar el Start Menu de Windows de directorios creados por las apps.
 
 ## Por qué debo ser acreedor de la beca al 100%
 
@@ -45,8 +44,7 @@ Soy una persona responsable, apasionada por la tecnología, que no se queda con 
 
 # Aplicación para Front-End
 
-Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/)  
-[Repositorio](https://github.com/DigitalNaut/kitty-buddy)
+Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/) | [Repositorio](https://github.com/DigitalNaut/kitty-buddy)
 
 Requisitos:
 Desarrollado con vainilla JS, CSS y JS sin librerías ✔  
@@ -64,11 +62,8 @@ Aprendí mucho sobre Custom Elements de HTML, más cómo modificarlos mediante J
 
 # Ejercicios de lógica
 
-1. Imprimir mil veces un string sin usar un ciclo o una iteración
-[Solución](https://codepen.io/HexDex/pen/PompyaN?editors=0011)
+1. Imprimir mil veces un string sin usar un ciclo o una iteración: [Solución](https://codepen.io/HexDex/pen/PompyaN?editors=0011)
 
-2. Calcular el año en el que más personas estuvieron vivas tomando un JSON 
-[Solución](https://codepen.io/HexDex/pen/JjNWRBL?editors=0011)
+2. Calcular el año en el que más personas estuvieron vivas tomando un JSON: [Solución](https://codepen.io/HexDex/pen/JjNWRBL?editors=0011)
 
-3. Arreglos paralelos acomodados del equipo más ganador al menos ganador
-[Solución](https://codepen.io/HexDex/pen/WNjpYNd?editors=0011)
+3. Arreglos paralelos acomodados del equipo más ganador al menos ganador: [Solución](https://codepen.io/HexDex/pen/WNjpYNd?editors=0011)
