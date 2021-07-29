@@ -1,57 +1,74 @@
-![Image Header](https://scontent.fmzt1-1.fna.fbcdn.net/v/t1.6435-9/152669709_1715386385311335_4237383846142032022_n.png?_nc_cat=111&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeFPN6WbwCzk8dd0nWJBNzJ8SAwqN3h5yNFIDCo3eHnI0SPLJWVgOn15e5qzeKatZ6I&_nc_ohc=y7S68cnsXAwAX-GtKfI&_nc_ht=scontent.fmzt1-1.fna&oh=e6ca04806a4d76879342f3a9984b3315&oe=60CA715F)
+<!-- cSpell:disable -->
+![Avatar](https://avatars.githubusercontent.com/u/12903889?s=400&u=8631366f07ca08d82c3d79ad2deb2bb69026a264&v=4)
 
-# Proceso de selección Hackademy
+# Sobre mí
 
-## ¿Qué es Hackademy?
-Es un bootcamp intensivo de 20 semanas donde obtienes experiencia, mejoras tus habilidades y entras a una comunidad que busca crecer y mejorar todos los días.
+### Nombre
 
-## ¿Cómo funciona?
-Los padawans que integran una generación de Hackademy se especializan en un área del desarrollo de software (*Backend, Frontend o móvil*) y con ellos formamos equipos que tendrán que desarrollar una solución real en esas 20 semanas, auxiliados por mentores.
-Sumado a la parte técnica, todos los padawans tienen mentorías sobre: **finanzas personales, softskills, comunicación, comunidad y mucho más**.
-Al finalizar las 20 semanas posicionamos los perfiles de los padawans con empresas que buscan contratar el mejor talento.
+Jonathan Bernal Ramírez
 
-## ¿Qué costo tiene?
-El bootcamp tiene un costo de inversión de $80,000 pesos Méxicanos (aproximadanente $4,000 USD), Hackademy promueve la filosofía de que el conocimiento debe de ser accesible para todo aquel que quiere aprender y superarse, es por ello que absorbemos una parte del costo y manejamos dos tipos de becas: 
+### Correo
 
-1. Beca del 80%, el padawan acreedor de esta beca solo deberá cubrir un total de $20,000 pesos mexicanos los cuales pueden ser financiados a un lapso no mayor a 3 meses. 
+Personal: hoaxygen@gmail.com
+Profesional: johnbernalfsd@gmail.com
 
-2. Beca del 100%, el padawan acreedor de esta beca es becado por empresas que buscan contratarlo al finalizar las 20 semanas.
- 
-***Aplicas a la beca que más te convenga.***
+### Ocupación
 
-## ¿Si no quiero la beca puedo entrar directo cubriendo el costo del bootcamp de $80,000 MX?
-No, para entrar a hackademy pasas por un proceso de selección y solo los mejores son seleccionados, por lo que no podrías entrar de manera directa, pero si nos quieres donar los 80,000 pesos tienes nuestra atención y podemos hablar 😉.
+Soy estudiante autodidacta en busca de experiencia profesional
 
-## ¿Si obtuve la beca del 100% pero encontré empleo antes de finalizar las 20 semanas?
-Si antes de finalizar o al finalizar el padawan obtiene empleo por su cuenta, tiene la obligación de cubrir su beca ya sea de manera monetaria, apoyando con horas de desarrollo a Hackademy o con horas de mentorías, esta última queda sujeta al proceso de selección de mentores de Hackademy.
+### Proyectos personales
 
-## Si obtuve la beca del 100% ¿Qué pasa si abandono el bootcamp antes de finalizar las 20 semanas?
-Si no finalizas el programa tienes la obligación de cubrir la beca de manera monetaria. Hackademy solo tiene un determinado número de cupos y al abandonar el programa le estarías quitando la oportunidad a alguien más de aprender y adquirir experiencia.
+He creado un prototipo llamado [LOKR](https://docs.google.com/presentation/d/141uqMzy3afYyDXLmAmimTO6il2oQ2oS5FENQ3jkDR4Y/edit?usp=sharing) con React, Node y Postgre como proyecto final para un bootcamp. La plataforma incluye un servidor y un cliente que discrimina entre administradores y usuarios, mas la manipulación de bases de datos.
+Slideshow del pitch.
 
+He publicado un simple addon para Firefox con puro JS y CSS llamado [YouToo Adjust](https://addons.mozilla.org/en-US/firefox/addon/youtooadjust) para ajustar el reproductor a llenar toda la pantalla.
 
-## ¿Qué tecnologías usan en Hackademy?
-- Python // NodeJS // ReactJS // Angular // React Native 
+He implementado una API en Vue que aprendí por mi cuenta y desarrollé en una semana.
+[Trivia App](https://github.com/DigitalNaut/TriviaApp)
+Video: https://drive.google.com/file/d/1aefGEMziQHYkVGmO0udWS7YzuK6h2TvR/view?usp=sharing 
 
-## ¿Cómo aplico a Hackademy?
-Tienes que hacer un fork de este repo y después un pull request a este repo con lo siguiente:
-1. Un archivo readme.md con tu nombre completo, correo, si estudias o trabajas, qué has desarrollado fuera de la escuela o trabajo y por qué
-deberías de ser acreedor a la beca de tu selección.
-   - En este mismo readme necesitas agregar la url de tu ejercicio de área funcionando, la url del repo con el código de ese ejercicio y las url's de las soluciones de los ejercicios de lógica. 
-   - Para las soluciones de los ejercicios de lógica puedes usar codepen o algo similar.
-2. Necesitas resolver 3 ejercicios de lógica más el ejercicio del área a la que quieres entrar:
-   - **Front:** Debes de subir una página con html + css + js (sin librerías) que se conecte a mockapi para guardar y mostrar en una lista (nombre de la mascota, edad, raza y foto)
-   - **Back:** Debes subir una pequeña API con 2 endpoints (Guardar datos de la mascota y borrar datos de la mascota) con Django Rest Framework o NodeJS
-   - **Móvil:** Debes de subir una pagina responsiva con html + css + js (sin librerías) que se conecte a mockapi para guardar y mostrar en una lista (nombre de la mascota, edad, raza y foto)
+Estoy desarrollando un juego de mesa virtual que es una copia exacta de Settlers of Catán multi-jugador.
+[Video](https://docs.google.com/presentation/d/1gGU4rr4qXgbWUtumGZFlVfccnNzGHzQppkEjnXAXNnI/edit?usp=sharing)
 
-*Recuerda que solo puedes aplicar a un área.*
-   
-3. Ejercicios:
-   - Imprimir mil veces un string sin usar un ciclo o una iteración
-   - Calcular el año en el que más personas estuvieron vivas tomando un JSON con fecha de nacimiento y defunción. Ejemplo: 1er persona nació en 1950 y murió en el 2000, 2da persona nació en el 2000 y murió en el 2040. El resultado sería 2000. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/data.json
-   - Si tienes 2 arreglos (1 con nombres de equipos y otro con cantidad de torneos) debes de acomodarlos del equipo más ganador al menos ganador. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/campeones.txt
+Creé hace años un algoritmo para resolver permutaciones tediosas para un el addon llamado Thaumcraft 4 de Minecraft usando Adobe Air para la interface y Java para el desarrollo del algoritmo.
+[Video](https://drive.google.com/file/d/1iTsqWKTGLEXgDIY6gH8ICkUPFSBZ773o/view?usp=sharing )
 
-4. Entrevista
-   - Al finalizar el paso 1, 2 y 3 agendas una entrevista con alguien del equipo de Hackademy para hablar un poco sobre tí, tu experiencia y el resultado de tus ejercicios.
+No falta la calculadora implementando algunas librerías:
+[Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/ )
 
+Mi último proyecto usando PowerShell para limpiar el Start Menu de Windows de los directorios creados por las aplicaciones
+[Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner);
 
-# Si tienes dudas puedes enviar un correo a hola@hackademy.mx
+## Por qué debo ser acreedor de la beca al 100%
+
+Soy una persona responsable, apasionada por la tecnología, que no se queda con la duda. Quiero aprender a trabajar en un equipo de programación, apoyar en su coordinación para presentar un producto que cumpla con todas las expectativas del cliente, y salir con nuevas herramientas de desarrollo. También estoy interesado en otorgar mentorías a personas que se están integrando al mundo de programación e Inglés. Sin embargo, no cuento con la cantidad de dinero, pero confío que Hackademy es la siguiente etapa de mi desarrollo profesional.
+
+# Aplicación para Front-End
+
+Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/)
+[Repositorio](https://github.com/DigitalNaut/kitty-buddy)
+
+Requisitos:
+Desarrollado con vainilla JS, CSS y JS sin librerías ✔
+Conectado a MockAPI para recibir datos de mascotas ✔
+Datos de mascotas mostrados en una lista ✔
+
+Características adicionales:
+Responsivo - Con filosofía mobile-first ✔
+Dark theme - Dinámico, con preferencias guardadas en el navegador ✔
+Modular - Código reutilizable ✔
+Diseño original ✔
+
+Le dediqué todo mi conocimiento para completar un proyecto de calidad con mi mayor habilidad al momento.
+Aprendí mucho sobre Custom Elements de HTML, más cómo modificarlos mediante JS y CSS.
+
+# Ejercicios de lógica
+
+1. Imprimir mil veces un string sin usar un ciclo o una iteración
+[Solución](https://codepen.io/HexDex/pen/PompyaN?editors=0011)
+
+2. Calcular el año en el que más personas estuvieron vivas tomando un JSON 
+[Solución](https://codepen.io/HexDex/pen/JjNWRBL?editors=0011)
+
+3.Arreglos paralelos acomodados del equipo más ganador al menos ganador
+[Solución](https://codepen.io/HexDex/pen/WNjpYNd?editors=0011)
