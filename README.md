@@ -25,7 +25,7 @@ Soy estudiante autodidacta en busca de experiencia profesional
 2. He publicado un simple addon para Firefox con puro JS y CSS llamado [YouToo Adjust](https://addons.mozilla.org/en-US/firefox/addon/youtooadjust) para ajustar el reproductor a llenar toda la pantalla.
 
 3. He implementado una API en Vue que aprendí y desarrollé en una semana.  
-[Trivia App](https://github.com/DigitalNaut/TriviaApp)  
+[Repositorio](https://github.com/DigitalNaut/TriviaApp)  
 [Video](https://drive.google.com/file/d/1aefGEMziQHYkVGmO0udWS7YzuK6h2TvR/view?usp=sharing )  
 
 4. Estoy desarrollando un juego de mesa virtual que es una copia exacta de Settlers of Catán pero multi-jugador.  
@@ -34,7 +34,7 @@ Soy estudiante autodidacta en busca de experiencia profesional
 5. Creé hace años un algoritmo complejo para resolver permutaciones tediosas para un el addon llamado Thaumcraft 4 para Minecraft usando Adobe Air para la interface y Java para el desarrollo del algoritmo que luego fue portado a AS3.  
 [Video](https://drive.google.com/file/d/1iTsqWKTGLEXgDIY6gH8ICkUPFSBZ773o/view?usp=sharing)
 
-6. La clásica [Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/) implementando algunas librerías.  
+6. La clásica [Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/) implementando algunas librerías. (Easter egg: da click en el título!)  
 
 7. Mi último proyecto [Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner) que escrito en PowerShell para limpiar el Start Menu de Windows de directorios creados por las apps.
 
