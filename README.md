@@ -70,5 +70,5 @@ Aprendí mucho sobre Custom Elements de HTML, más cómo modificarlos mediante J
 2. Calcular el año en el que más personas estuvieron vivas tomando un JSON 
 [Solución](https://codepen.io/HexDex/pen/JjNWRBL?editors=0011)
 
-3.Arreglos paralelos acomodados del equipo más ganador al menos ganador
+3. Arreglos paralelos acomodados del equipo más ganador al menos ganador
 [Solución](https://codepen.io/HexDex/pen/WNjpYNd?editors=0011)
