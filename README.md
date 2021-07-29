@@ -46,12 +46,12 @@ Soy una persona responsable, apasionada por la tecnología, que no se queda con 
 
 Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/) | [Repositorio](https://github.com/DigitalNaut/kitty-buddy)
 
-Requisitos:
+**Requisitos:**  
 Desarrollado con vainilla JS, CSS y JS sin librerías ✔  
 Conectado a MockAPI para recibir datos de mascotas ✔  
 Datos de mascotas mostrados en una lista ✔  
 
-Características adicionales:
+**Características adicionales:**  
 Responsivo - Con filosofía mobile-first ✔  
 Dark theme - Dinámico, con preferencias guardadas en el navegador ✔  
 Modular - Código reutilizable ✔  
