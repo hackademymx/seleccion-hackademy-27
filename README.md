@@ -3,16 +3,16 @@
 
 # Sobre mí
 
-Soy un pequeño Químico Farmacobiólogo convertido en Programador! :D
+Soy un pequeño Químico Farmacobiólogo convertido en Programador! :D  
 
 ### Nombre
 
-Jonathan Bernal Ramírez
+Jonathan Bernal Ramírez  
 
 ### Correo
 
-Personal: hoaxygen@gmail.com
-Profesional: johnbernalfsd@gmail.com
+Personal: hoaxygen@gmail.com  
+Profesional: johnbernalfsd@gmail.com  
 
 ### Ocupación
 
@@ -20,24 +20,24 @@ Soy estudiante autodidacta en busca de experiencia profesional
 
 ### Proyectos personales
 
-1. He creado un prototipo llamado [LOKR](https://docs.google.com/presentation/d/141uqMzy3afYyDXLmAmimTO6il2oQ2oS5FENQ3jkDR4Y/edit?usp=sharing) con React, Node y Postgre como proyecto final para un bootcamp. La plataforma incluye un cliente y un servidor que discrimina entre administradores y usuarios, mas la manipulación de bases de datos.
+1. He creado un prototipo llamado [LOKR](https://docs.google.com/presentation/d/141uqMzy3afYyDXLmAmimTO6il2oQ2oS5FENQ3jkDR4Y/edit?usp=sharing) con React, Node y Postgre como proyecto final para un bootcamp. La plataforma incluye un cliente y un servidor que discrimina entre administradores y usuarios, mas la manipulación de bases de datos con SQL y dinámicamente con JSON.
 
 2. He publicado un simple addon para Firefox con puro JS y CSS llamado [YouToo Adjust](https://addons.mozilla.org/en-US/firefox/addon/youtooadjust) para ajustar el reproductor a llenar toda la pantalla.
 
-3. He implementado una API en Vue que aprendí y desarrollé en una semana.
-[Trivia App](https://github.com/DigitalNaut/TriviaApp)
-Video: https://drive.google.com/file/d/1aefGEMziQHYkVGmO0udWS7YzuK6h2TvR/view?usp=sharing 
+3. He implementado una API en Vue que aprendí y desarrollé en una semana.  
+[Trivia App](https://github.com/DigitalNaut/TriviaApp)  
+[Video](https://drive.google.com/file/d/1aefGEMziQHYkVGmO0udWS7YzuK6h2TvR/view?usp=sharing )  
 
-4. Estoy desarrollando un juego de mesa virtual que es una copia exacta de Settlers of Catán pero multi-jugador.
+4. Estoy desarrollando un juego de mesa virtual que es una copia exacta de Settlers of Catán pero multi-jugador.  
 [Video](https://docs.google.com/presentation/d/1gGU4rr4qXgbWUtumGZFlVfccnNzGHzQppkEjnXAXNnI/edit?usp=sharing)
 
-5. Creé hace años un algoritmo complejo para resolver permutaciones tediosas para un el addon llamado Thaumcraft 4 para Minecraft usando Adobe Air para la interface y Java para el desarrollo del algoritmo que luego fue portado a AS3.
+5. Creé hace años un algoritmo complejo para resolver permutaciones tediosas para un el addon llamado Thaumcraft 4 para Minecraft usando Adobe Air para la interface y Java para el desarrollo del algoritmo que luego fue portado a AS3.  
 [Video](https://drive.google.com/file/d/1iTsqWKTGLEXgDIY6gH8ICkUPFSBZ773o/view?usp=sharing)
 
-6. La clásica [Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/) implementando algunas librerías.
+6. La clásica [Calculadora](https://jsfiddle.net/digitalnaut/sgzk5L9p/) implementando algunas librerías.  
 
-7. Mi último proyecto usando PowerShell para limpiar el Start Menu de Windows de directorios creados por las aplicaciones:
-[Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner);
+7. Mi último proyecto usando PowerShell para limpiar el Start Menu de Windows de directorios creados por las aplicaciones:  
+[Start Menu Cleaner](https://github.com/DigitalNaut/Start-Menu-Cleaner)
 
 ## Por qué debo ser acreedor de la beca al 100%
 
@@ -45,7 +45,7 @@ Soy una persona responsable, apasionada por la tecnología, que no se queda con 
 
 # Aplicación para Front-End
 
-Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/)
+Sitio en GitHub Pages: [Kitty Buddy](https://digitalnaut.github.io/kitty-buddy/)  
 [Repositorio](https://github.com/DigitalNaut/kitty-buddy)
 
 Requisitos:
