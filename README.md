@@ -47,8 +47,8 @@ deberías de ser acreedor a la beca de tu selección.
    
 3. Ejercicios:
    - Imprimir mil veces un string sin usar un ciclo o una iteración
-   - Calcular el año en el que más personas estuvieron vivas tomando un JSON con fecha de nacimiento y defunción. Ejemplo: 1er persona nació en 1950 y murió en el 2000, 2da persona nació en el 2000 y murió en el 2040. El resultado sería 2000. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/data.json
-   - Si tienes 2 arreglos (1 con nombres de equipos y otro con cantidad de torneos) debes de acomodarlos del equipo más ganador al menos ganador. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/campeones.txt
+   - Calcular en qué año hubo más personas muertas tomando un JSON con fecha de nacimiento y defunción. Ejemplo: 1er persona nació en 1950 y murió en el 2000, 2da persona nació en el 2000 y murió en el 2040. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/data.json
+   - Tienes 2 arreglos (1 con nombres de equipos y otro con cantidad de torneos) ¿Cuál es la diferencia de campeonatos entre todos los equipos con respecto al más ganador? Ejemplo: Lakers es el más ganador con 15, ¿Cuál es la diferecia de campeonatos con el segundo, tercero y así sucesivamente?. https://github.com/hackademymx/seleccion-hackademy-27/blob/main/campeones.txt
 
 4. Entrevista
    - Al finalizar el paso 1, 2 y 3 agendas una entrevista con alguien del equipo de Hackademy para hablar un poco sobre tí, tu experiencia y el resultado de tus ejercicios.
